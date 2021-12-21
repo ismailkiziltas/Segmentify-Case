@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sizin İçin Seçtiklerimiz</h1>
+        <div class="flex">
+            <div class="tab">
+                <ul id="menu">
+
+                </ul>
+            </div>
+
+
+            <div class="flex-1">
+                <div class="swiper">
+                    <div class="swiper-wrapper" slider></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="alert" alert>
+        <div>
+            <div class="alert-content">
+                <img src="/icons/approve-accept.svg" alt="accept icon" />
+                <div class="alert-text">
+                    <h4>Ürün sepete eklendi.</h4><a href="#">Sepete Git</a>
+                </div>
+            </div>
+        </div>
+        <div class="close" onclick="closeAlert()">
+            <i>X</i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script defer src="./js/data.js"></script>
+    <script defer src="./js/app.js"></script>
+    <script defer src="./js/lazzyload.js"></script>
+</body>
+
+</html>
